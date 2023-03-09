@@ -33,7 +33,7 @@ const char *fragmentShaderSource =
 	"uniform sampler2D texture2;\n"
 	"void main()\n"
 	"{\n"
-	" FragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), 1.);\n"
+	" FragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), .5);\n"
 	"}";
 
 unsigned int shaderProgram;
